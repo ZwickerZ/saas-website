@@ -4,6 +4,12 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+/*
+yellow = #F2B90C
+Light Green = #3BBF4F
+Dark Green = #227336
+
+*/
 html {
   box-sizing: border-box;
 
@@ -21,4 +27,47 @@ html {
 
 .list-group a {
   text-decoration: none;
+}
+
+.btn {
+  background-color: #F2B90C;
+  border: #F2B90C;
+  padding: 1rem;
+}
+
+.nav {
+  display: none;
+}
+
+header [type="checkbox"] + label::before {
+  top: -50em;
+}
+
+.nav-close {
+  display: none;
+  background-color: white;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.navigate {
+  display: none;
+}
+
+.nav a:not(.su){
+  color: #227336;
+}
+
+.logo {
+  max-width: 75px;
 }

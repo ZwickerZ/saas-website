@@ -12,53 +12,112 @@
 </head>
 <body class="gutter">
 
-  <nav>
-    <ul class="list-group">
-      <li><a href="#"><img class="img-flex i-96" src="images/cloud-logo2.svg" alt="#"></a></li>
-      <li><a href="#">What We Do</a></li>
-      <li><a href="#">Pricing</a></li>
-    </ul>
-  </nav>
+  <!-- NAV/HEADER -->
+  <header class="grid pad-t push">
+    <div class="unit xs-1-2 left">
+      <a href="index.html"> <img class="logo" src="images/cloud-logo2.svg" alt=""></a>
+    </div>
 
-<!-- BANNER -->
-  <section>
-    <h1 class="tenakilo">Be neck high in the clouds,</h1>
-    <h2>instead of knee deep in files.</h2>
-    <a class="btn link-box" href="#">Sign Up</a>
-    <img class="bnr-img img-flex flex-align-center" src="images/cloud-man.png" alt="">
+    <input type="checkbox" id="nav-check" class="nav-check">
+
+    <label class="pad-t nav-label unit xs-1-2 text-right" for="nav-check">
+      <i class="icon i-32">
+        <img class="img-flex nav-open" src="icons/menu-1.svg" alt="">
+        <img class="img-flex nav-close" src="icons/x-back-1.svg" alt="">
+      </i>
+    </label>
+
+<!-- NAV SMALL -->
+    <nav class="nav unit text-center xs-1 pad-t">
+      <ul class="list-group">
+        <li class="mega push-2"><a href="#">What We Do</a></li>
+        <li class="mega push-2"><a href="#">Pricing</a></li>
+        <li class="push-2"><a class="su btn bold link-box" href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+
+<!-- NAV LARGE -->
+    <nav class="navigate" role="navigation" id="nav" tabindex="0">
+      <ul class="list-group">
+        <li><a href="#">What We Do</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a class="btn bold link-box" href="#">Sign Up</a>></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+  <section class="push-2 grid">
+    <h1 class="unit xs-1 giga push-none">Be neck high in the clouds,</h1>
+    <h2 class="unit xs-1 kilo">instead of knee deep in files.</h2>
+    <a class="unit xs-1-5 btn bold link-box" href="#">Sign Up</a>
+    <div class="">
+      <img class="bnr-img img-flex" src="images/cloud-man.png" alt="">
+    </div>
+
   </section>
 
-<!-- EASY SECTION -->
-  <section>
-    <h2>"That was easy" — Staples</h2>
-    <p>Cloudbooks is so easy and intuitive anyone can do it. Plus, we have tips, tricks and more to help guide you.</p>
-    <img class="img-flex" src="images/mouse.svg" alt="">
+  <!-- EASY SECTION -->
+  <section class="grid push-2">
+
+    <div class="unit xs-2-3">
+      <h2 class="mega push-none">"That was easy" — Staples</h2>
+      <p>Cloudbooks is so easy and intuitive anyone can do it. Plus, we have tips, tricks and more to help guide you.</p>
+    </div>
+    <img class="unit xs-1-3 img-flex" src="images/mouse.svg" alt="">
   </section>
 
   <!-- SAFE SECTION -->
-    <section>
-      <h2>It's safer up here.</h2>
-      <p>We keep safety as one of our top missions. All your information is kept 100% safe, guaranteed.</p>
+  <section class="grid push-2">
+    <h2 class="unit xs-1 giga text-center">It's safer up here.</h2>
+    <p class="unit xs-1 text-center">We keep safety as one of our top missions. All your information is kept 100% safe, guaranteed.</p>
+    <div class="unit xs-1-2 unit-offset-xs-1-4">
       <img class="img-flex" src="images/shield.svg" alt="">
-    </section>
+    </div>
+  </section>
 
-<!-- SECURITY + ICONS -->
-    <section class="grid gutter-2">
+  <!-- SECURITY + ICONS -->
+  <section class="grid gutter-2 push-2">
 
-      <div class="unit unit-content-center s-1">
-        <img class="icon i-64" src="images/safe.svg" alt="">
-        <p>All the information is saved externally, not accessible by our employees, and entirely encrypted.</p>
-      </div>
+    <div class="unit s-1 text-center">
+      <img class="center flex-align-center icon i-64" src="images/safe.svg" alt="">
+      <p>All the information is saved externally, not accessible by our employees, and entirely encrypted.</p>
+    </div>
 
-      <div class="unit s-1">
-        <img class="icon i-64" src="images/handshake.svg" alt="">
-        <p>We make secure deals and partnerships with the major Canadian banks for your safety.</p>
-      </div>
+    <div class="unit s-1 text-center">
+      <img class="icon i-64" src="images/handshake.svg" alt="">
+      <p>We make secure deals and partnerships with the major Canadian banks for your safety.</p>
+    </div>
 
-      <div class="unit s-1">
-        <img class="icon i-64" src="images/key.svg" alt="">
-        <p>Cloudbooks is 10 times safer than your usual accounting software. We  provide as many levels of encryption as possible.</p>
-      </div>
-    </section>
+    <div class="unit s-1 text-center">
+      <img class="icon i-64" src="images/key.svg" alt="">
+      <p>Cloudbooks is 10 times safer than your usual accounting software. We  provide as many levels of encryption as possible.</p>
+    </div>
+  </section>
+
+  <!-- FINAL SIGN UP -->
+  <section>
+    <h2>Sign up for free</h2>
+    <p>and it's easy too.</p>
+    <a class="btn bold link-box" href="#">Sign up</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <li> <a href="#">FAQ</a> </li>
+      <li> <a href="#">Contact Us</a> </li>
+      <li> <a href="#">Help</a> </li>
+    </ul>
+
+    <div class="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+
+    <small>©2019 All Rights Reserved</small>
+  </footer>
+
 </body>
 </html>
